@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚠️ Attention au Phishing !</title>
+    <title>⚠️ Vous avez divulgué vos informations !</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to right, #0073e6, #00c6ff);
+            background: linear-gradient(to right, #ff4b5c, #ff914d);
             color: white;
             text-align: center;
             padding: 40px;
         }
 
         .container {
-            max-width: 600px;
+            max-width: 700px;
             background: rgba(255, 255, 255, 0.1);
             padding: 20px;
             border-radius: 10px;
@@ -23,19 +23,20 @@
         }
 
         h1 {
-            font-size: 28px;
-        }
-
-        p {
-            font-size: 18px;
+            font-size: 32px;
         }
 
         .alert {
-            background: #ff4b5c;
+            background: #ff0000;
             padding: 15px;
             font-weight: bold;
             border-radius: 5px;
             margin-top: 20px;
+        }
+
+        ul {
+            text-align: left;
+            font-size: 18px;
         }
 
         button {
@@ -56,21 +57,29 @@
 </head>
 <body>
     <div class="container">
-        <h1>⚠️ Attention au Phishing !</h1>
-        <p>Le **phishing** est une tentative de fraude visant à voler vos informations personnelles 
-            (mots de passe, numéros de carte bancaire, etc.). Ne cliquez jamais sur des liens suspects 
-            et **ne partagez jamais** vos informations privées !</p>
-
+        <h1>⚠️ Vous venez de divulguer vos informations personnelles !</h1>
         <div class="alert">
-            🚨 **Ne répondez jamais aux emails ou SMS vous demandant vos identifiants !** 🚨
+            🚨 **ATTENTION : Une attaque de phishing a eu lieu !** 🚨
         </div>
+        <p>Le **phishing** est une technique utilisée par des fraudeurs pour voler des informations sensibles comme vos mots de passe et données bancaires.</p>
 
-        <p>🔒 **Conseils pour éviter le phishing :**</p>
-        <ul style="text-align: left;">
-            <li>✅ Vérifiez l'adresse email de l'expéditeur</li>
-            <li>✅ Ne cliquez pas sur des liens douteux</li>
-            <li>✅ Activez l'authentification à deux facteurs</li>
-            <li>✅ Utilisez un bon antivirus et mettez à jour vos logiciels</li>
+        <h2>🔍 Qu'est-ce que le phishing ?</h2>
+        <p>Le phishing est une **forme d'arnaque** où des cybercriminels imitent des sites web ou des institutions officielles pour inciter les utilisateurs à révéler leurs informations personnelles.</p>
+
+        <h2>🕵️‍♂️ Les types de phishing :</h2>
+        <ul>
+            <li>📧 **Phishing par email** : Faux messages demandant vos identifiants.</li>
+            <li>📱 **Phishing par SMS** : Messages frauduleux imitant des banques.</li>
+            <li>💻 **Sites web falsifiés** : Pages imitant des services officiels.</li>
+            <li>💻 **Phishing du visage** : Prendre le visage d'une autre personne(personnalite, amis, famille, etc...</li>
+        </ul>
+
+        <h2>🛡️ Comment se protéger ?</h2>
+        <ul>
+            <li>✅ Ne cliquez **jamais** sur des liens douteux.</li>
+            <li>✅ Vérifiez l’adresse email de l’expéditeur.</li>
+            <li>✅ Utilisez un **antivirus et un bloqueur de phishing**.</li>
+            <li>✅ Activez l’**authentification à deux facteurs** sur vos comptes.</li>
         </ul>
 
         <button onclick="alert('Soyez toujours vigilant !')">Je prends conscience du danger</button>
